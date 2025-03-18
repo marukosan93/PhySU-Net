@@ -7,3 +7,14 @@
 Method Overview: The input video is processed into a stacked MSTmap. For the supervised downstream task, the decoder reconstructs an image with similar temporal and frequency properties as the BVPmap label, and the HR head regresses the global HR value with the HR ground truth as label. For the self-supervised pretext task, only the input and the labels change. The input is a masked version of the MSTmap that the decoder attempts to reconstruct into a full MSTmap. For the HR regression, a CHROM calculated pseudo-label is used.
  
 
+
+## Citation
+
+@inproceedings{savic2024physu,
+  title={PhySU-net: Long temporal context transformer for rPPG with self-supervised pre-training},
+  author={Savic, Marko and Zhao, Guoying},
+  booktitle={International Conference on Pattern Recognition},
+  pages={228--243},
+  year={2024},
+  organization={Springer}
+}
