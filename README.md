@@ -3,7 +3,7 @@
 
  You can find our paper at https://link.springer.com/chapter/10.1007/978-3-031-78341-8_15
 
-![METHODVIS](physu-net_method.png)
+![METHODVIS](physu-net_method.jpg)
 Method Overview: The input video is processed into a stacked MSTmap. For the supervised downstream task, the decoder reconstructs an image with similar temporal and frequency properties as the BVPmap label, and the HR head regresses the global HR value with the HR ground truth as label. For the self-supervised pretext task, only the input and the labels change. The input is a masked version of the MSTmap that the decoder attempts to reconstruct into a full MSTmap. For the HR regression, a CHROM calculated pseudo-label is used.
  
 
