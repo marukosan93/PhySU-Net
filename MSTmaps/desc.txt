@@ -1,0 +1,4 @@
+Contains MSTmaps and bvp grountruth, for useful preprocessing code check https://github.com/marukosan93/RS-rPPG or https://github.com/marukosan93/ORPDAD
+├── Sample1 (signal maps and ground truth are long N frames which is the total length of each video)
+   ├──├── mstmap.npy (containts [63,N,3] multi-scale spatial-temporal maps calculated from videos)
+   ├──├── bvp.npy ( array with grountruth bvp signal [N]) 
