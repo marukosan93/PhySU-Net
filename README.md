@@ -11,7 +11,7 @@ Method Overview: The input video is processed into a stacked MSTmap. For the sup
 The original videos are firstly preprocessed by extracting the MSTmaps following https://github.com/nxsEdson/CVD-Physiological-Measurement. Both the MSTmaps and groundtruth bvp are resampled to 30 fps. In the example code we assume the data used in pre-processed from OBF, MMSE or VIPL-HR datasets, but can't provide the actual data or preprocessed files. You can find code for pre-preprocessing the data at https://github.com/marukosan93/RS-rPPG or https://github.com/marukosan93/ORPDAD/.
 
 ## Training
-CODE IS COMING SOON
+**CODE IS COMING SOON** <br>
 You can SSL pre-train the network to predict MSTmaps from Masked maps and to regress pseudo-hr with pretrain_PU.py. To train using supervised learnig (or transfer if you load the previously pretrained model) use train_PU.py. eval_PU.py can evalute the output signals and calculate metrics. 
 
 ## Citation
