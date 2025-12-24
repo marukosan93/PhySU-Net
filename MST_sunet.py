@@ -59,15 +59,10 @@ class mst(Dataset):
 
     def __getitem__(self,idx):
         dir = self.data[idx]
-
-        long = False
         shift = 0
         sr = 1
         if type(dir) is tuple:
-            if len(dir) > 2:
-                long = True
-                shift = dir[1]
-            #sr = dir[2]
+            shift = dir[1]
             dir = dir[0]
 
         dataset=""
